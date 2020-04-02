@@ -1,7 +1,7 @@
 {
-  "name": "element-react",
-  "version": "1.4.34",
-  "description": "Element UI for React",
+  "name": "xadmin",
+  "version": "2.0.1",
+  "description": "xadmin for msgxc",
   "private": false,
   "main": "dist/npm/es5/index.js",
   "jsnext:main": "next.js",
@@ -19,19 +19,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElemeFE/element-react.git"
+    "url": "git+https://github.com/sfproductlabs/xadmin.git"
   },
   "keywords": [
-    "Element",
-    "UI",
-    "React"
+    "optimizely",
+    "messaging",
+    "sms",
+    "apple",
+    "push",
+    "android",
+    "messages",
+    "web push",
+    "email",
+    "sendgrid"
   ],
-  "author": "ELEME Inc",
-  "license": "MIT",
+  "author": "SF Product Labs LLC",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ElemeFE/element-react/issues"
+    "url": "https://github.com/sfproductlabs/xadmin/issues"
   },
-  "homepage": "https://github.com/ElemeFE/element-react",
+  "homepage": "https://github.com/sfproductlabs/xadmin",
   "devDependencies": {
     "@types/react": "^16.8.1",
     "babel-cli": "^6.26.0",
