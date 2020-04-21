@@ -29,7 +29,7 @@ export default class MessagesUpcoming extends React.PureComponent {
                     width: 300,
                     fixed: 'left',
                     render: (el) => {
-                        if (el.scheduled) return <span>{moment(el.scheduled).format('LLLL')}</span>
+                        if (el && el.scheduled) return <span>{moment(el.scheduled).format('LLLL')}</span>
                         return <span/>
                     }
                 },
