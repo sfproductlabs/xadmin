@@ -29,6 +29,7 @@ export default class MessagesRecent extends React.PureComponent {
                 fixed: 'left',
                 render: (el)=>{
                     if (el.updated) return <span>{moment(el.updated).format('LLLL')}</span>
+                    return <span/>
                 }
               },
               {
