@@ -47,7 +47,8 @@ export default class MessagesRecent extends React.PureComponent {
                 prop: "completed",
                 width: 180,
                 render: (el)=>{
-                    return <span>{moment(el.updated).fromNow()}</span>
+                    if (el && el.updated) return <span>{moment(el.updated).fromNow()}</span>
+                    return <span/>
                 }
               },
               {
@@ -55,7 +56,8 @@ export default class MessagesRecent extends React.PureComponent {
                 prop: "meta",
                 width: 360,
                 render: (el)=>{
-                    return <span>{JSON.stringify(el.meta)}</span>
+                    if (el && el.updated) return <span>{JSON.stringify(el.meta)}</span>
+                    return <span/>
                 }
               },
               {
